@@ -1,0 +1,95 @@
+﻿<!doctype html> 
+<html> 
+	<head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Добро пожаловать</title>
+		<link rel="stylesheet" type="text/css" href="tierStyle.css">
+		<script src="tierScript.js"></script>
+	</head>
+	<body>
+		<div id="head"> 
+			<div id="label">
+				<img src="image/znak2.png" width=80%>
+			</div>	
+			<div id="formochka">
+				<form name="en"> 
+					<button class="knopka" type="button" name="i" onClick="location.href='#openModal'"> Навести меня</button>
+				</form>
+			</div>
+			<div id="f">
+				<form name="reg">
+					<button class="knopka" name="registr" onClick="location.href='#openModal2'">Зарегистрируй меня</button>
+				</form>
+			</div>
+		</div>
+			<div id="openModal" class="modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">Навести питомца!</h3>
+							<a href="#close" title="Close" class="close">×</a>
+						</div>
+						<div class="modal-body">    
+							<p> 
+								<label>E-mail <input type="email"></label><br><br>
+								<label>Пароль <input type="text"></label><br><br>
+								<form name="en"> 
+									<button class="kn" type="button" name="i" onClick="location.href='sTier.html'"> Навещаю</button>
+								</form>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="openModal2" class="modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">А ты прошел регистрацию?</h3>
+							<a href="#close" title="Close" class="close">×</a>
+						</div>
+						<div class="modal-body">    
+							<p>
+								<label>Имя <input type="text"></label><br><br>
+								<label>E-mail <input type="email"></label><br><br>
+								<label>Пароль <input type="email"></label><br><br>
+								<button class="kn" type="button" name="i" onClick="location.href='regTier.html'">Регистрируй меня полностью!</button>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="openModal3" class="modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">Ты уверен,что тебе оно надо?</h3>
+							<a href="#close" title="Close" class="close">×</a>
+						</div>
+						<div class="modal-body">    
+							<p>
+								<label>E-mail <input type="email"></label><br><br>
+								<label>Пароль <input type="text"></label><br><br>
+								<label>Кодовый ответ <input type="text"></label><br><br>
+								<button class="kn" type="button" name="i" onClick="location.href='regTier.html'">Регистрируй меня полностью!</button>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div id="home">
+			<div id="left"></div>
+			<div id="center">
+				<img src="image/hom.png" width=80%>
+			</div>
+			<div id="right"></div>
+		</div>
+		<div id="basement"> 
+			<div class="formochka">
+				<form > 
+					<button type="" onClick="location.href='#openModal3'">Разработчикам</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
